@@ -1,0 +1,81 @@
+#center_bar{
+	border: 1px solid #ea1622;
+    height: 50px;
+    background-color: #ff4401;
+}
+.centerbar_logo{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 100px;
+}
+.centerbar_float{
+	float: right;
+}
+.centerbar_logo a{
+	font-size: x-large;
+	color: white;
+	font-weight: 800;
+}
+.centerabr_search{
+	display: table-cell;
+	vertical-align: middle;
+	height: 50px;
+	position: relative;
+}
+#center_info{
+	border-top: 2px solid #a94442;
+    margin-top: 20px;
+    background-color: #e6a99c;
+}
+#info_form{
+	background-color: honeydew;
+}
+.info_show_pic{
+	float: left;
+	position: relative;
+	right: 50%;
+}
+.info_show_pic img{
+	width: 100px;
+	height: 100px;
+}
+.info_show_text{
+	width: 300px;
+	position: relative;
+	float: left;
+	right: 50%;
+}
+.info_show_text ul{
+	list-style-type: none;
+}
+.info_show_btn {
+	text-align: center;
+	clear: both;
+}
+.info_show_btn button{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(153, 32, 23);
+    position: relative;
+    left: -80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.info_show{
+	position: relative;
+	float: left;
+	left: 50%;
+}
+#add_info{
+	border-top: 2px solid #acad95;
+    margin-top: 20px;
+    background-color: #eef1d1;
+}
+.info_show_text li{
+	margin: 2px;
+}

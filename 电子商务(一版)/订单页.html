@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css/basis.css"/>
+</head>
+
+<body>
+	<div class="container header">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="首页.html">米米乐</a>
+      </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="注册.html">注册 <span class="sr-only">(current)</span></a></li>
+        <li><a href="登录.html">登录</a></li>
+        <li class="dropdown">
+          <a href="个人信息页.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">我的中心</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">搜索</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="购物车页.html">购物车</a></li>
+        <li class="dropdown">
+          <a href="商家信息页.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商家中心 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+      </nav>
+  </div>
+
+	<div class="container" id="shop_Bar">
+		<div>
+			<img src="images/mimile.png">
+		</div>
+		<div class="shop_progress">
+			<div>
+				<p>购物进度</p>
+			</div>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%
+  				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="container">
+    <div class="order_intro">
+      <h1 class="order_intro_p">我的订单</h1>
+      <p class="order_intro_p">填写收货地址并查看商品清单，点击确认订单后进入下一步操作。</p>
+    </div>    
+  </div>
+
+<!--收货地址框-->
+  <div class="container">
+    <div class="address_box">
+      <h4>收货地址</h4>
+      <div class="form_box">
+        <form>
+          <span class="span_name">收货人姓名</span>
+          <input type="text" class="input_name" name="name" placeholder="长度不超过25个字符">
+          <br><br>
+          <span class="span_mobile">手机号码</span>
+          <input type="text" class="input_mobile" name="mobilePhone" placeholder="手机号码、电话号码必须填一项">
+          <br><br>
+          <span class="span_telephone">电话号码</span>
+          <input type="text" class="input_telephone" name="telephone" placeholder="区号-电话号码，例如：010-88541257">
+          <br><br>
+          <span class="span_zip">邮政编码</span>
+          <input type="text" class="input_zip" name="zipCode" placeholder="如您不清楚邮递区号，请填写000000">
+          <br><br>
+          <span class="span_address">详细地址</span>
+          <textarea class="textarea_address" name="addressDetail" placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息"></textarea>
+          <br><br>
+          <input type="checkbox" class="check_address" name="defaultAddress"> 设置为默认收货地址
+          <br><br>
+          <button class="btn_save">保 存</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<!--收货地址框-->
+
+<!--商品信息框-->
+  <div class="container" id="shop_list">
+    <div class="shoplist_name">
+      <h3>商品清单</h1>
+        <div class="shoplist_single">
+        <div class="shoplist_img"><img src="images/yifu1.jpg"></div>
+        <ul>
+          <li id="goods">商品</li>
+          <li class="others">单价</li>
+          <li class="others">数量</li>
+          <li class="others">小计</li>
+        </ul>
+        <ul>
+          <li id="goods">苹果</li>
+          <li class="others">￥10</li>
+          <li class="others">1</li>
+          <li class="others">￥10</li>
+        </ul>
+        </div>
+
+        <div class="shoplist_single">
+        <div class="shoplist_img"><img src="images/yifu1.jpg"></div>
+        <ul>
+          <li id="goods">商品</li>
+          <li class="others">单价</li>
+          <li class="others">数量</li>
+          <li class="others">小计</li>
+        </ul>
+        <ul>
+          <li id="goods">苹果</li>
+          <li class="others">￥10</li>
+          <li class="others">1</li>
+          <li class="others">￥10</li>
+        </ul>
+        </div>
+
+        <p>订单总金额：<strong>$10</strong></p>
+    </div>
+    <div class="shoplist_btn">
+      <button type="submit">确认订单</button>
+    </div>
+  </div>
+<!--商品信息框-->
+
+<!--页尾-->
+  <div class="container" id="footer_intro">
+    <ul>
+      <li>
+        <dl>
+          <dt>购物指南</dt>
+          <dd><a href="#">礼品卡使用</a></dd>
+          <dd><a href="#">购物分期</a></dd>
+          <dd><a href="#">邮费制度</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>支付方式</dt>
+          <dd><a href="#">支付问题</a></dd>
+          <dd><a href="#">在线支付</a></dd>
+          <dd><a href="#">货到付款</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>配送与服务</dt>
+          <dd><a href="#">申请售后</a></dd>
+          <dd><a href="#">取消订单</a></dd>
+          <dd><a href="#">第三方配送</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>商家入驻</dt>
+          <dd><a href="#">如何入驻</a></dd>
+          <dd><a href="#">我要开店</a></dd>
+          <dd><a href="#">如何发货</a></dd>
+        </dl>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container" id="footer">
+    <span class="label label-default">米米乐商城</span>
+    <span class="label label-primary">招聘英才</span>
+    <span class="label label-success">合作商家</span>
+    <span class="label label-info">8.8包邮</span>
+    <span class="label label-warning">双十一特惠</span>
+    <span class="label label-danger">一起摇摆</span>
+  </div>
+<!--页尾-->
+
+	<script type="text/javascript" src="scripts/global.js"></script>
+	<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+</body>
+</html>

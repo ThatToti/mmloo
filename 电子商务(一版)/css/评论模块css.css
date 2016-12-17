@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+.ncs-commend-floor {
+    margin: 0 40px 0 60px;
+    border-left: solid 3px #F5F5F5;
+    position: relative;
+    z-index: 1;
+}
+.ncs-commend-main {
+    padding: 20px 0 0 0;
+    border: solid #D7D7D7;
+    border-width: 0 1px 1px;
+    background-color: #fafafa;
+}
+.ncs-commend-floor .user-avatar {
+    background-color: #F2F2F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -20px;
+}
+.raty {
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+}
+body {
+    font: 12px/20px Arial,Verdana,"宋体","Lucida Grande","Lucida Sans Unicode",Helvetica,sans-serif;
+    color: #666;
+    background: #FFF none repeat scroll 0 0;
+    min-width: 1200px;
+}
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
+.ncs-commend-floor .detail {
+    margin: 10px 0 0 30px;
+}
+.ncs-commend-floor .detail dt .user-name {
+    font: bold 12px/20px "Microsoft Yahei";
+    color: #AAA;
+    float: left;
+}
+div {
+    display: block;
+}
+.pb5 {
+    padding-bottom: 5px;
+}
+.pr {
+    position: relative;
+}
+
+.tr {
+    text-align: right !important;
+}
+.pr5 {
+    padding-right: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0 auto;
+}
+.pagination li span.currentpage {
+    color: #AAA;
+    font-weight: bold;
+    background-color: #FAFAFA;
+    border-color: #E6E6E6;
+    position: relative;
+    z-index: 2;
+}
+.more-commend {
+    text-decoration: underline !important;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 30px;
+    color: #D93600;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button, textarea, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol {
+    list-style: none outside none;
+}
+element.style {
+    display: none;
+}

@@ -1,0 +1,75 @@
+.order_intro{
+	background-color: rgb(243, 220, 220);
+	border: 1px solid rgb(196, 0, 0);
+}
+
+.order_intro .order_intro_p{
+	margin-left: 15px;
+}
+.address_box{
+	text-align: center;
+	margin-top: 30px;
+	border-top: 2px solid #014d7f;
+	background-color: #e7f2ff;
+}
+
+.address_box h4{
+	margin: 20px 0px;
+	color: #014d7f;
+}
+
+.address_box .form_box {
+	text-align: left;
+	width: 425px;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.address_box .form_box .input_name{
+	width: 220px;
+	margin-left: 17px;
+}
+
+.address_box .form_box .input_mobile{
+	width: 220px;
+	margin-left: 30px;
+}
+
+.address_box .form_box .input_telephone{
+	width: 220px;
+	margin-left: 30px;
+}
+
+.address_box .form_box .input_zip{
+	width: 220px;
+	margin-left: 30px;
+}
+
+.address_box .form_box .span_address{
+	float: left;
+}
+
+.address_box .form_box .textarea_address{
+	resize: none;
+	font-size: 13px;
+	width: 340px;
+	height: 62px;
+	margin-left: 33px;
+}
+
+.address_box .form_box .check_address{
+	margin-left: 85px;
+}
+
+.address_box .form_box .btn_save{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+	background-color: rgb(153, 32, 23);
+	margin-left: 84px;
+	margin-bottom: 20px;
+}

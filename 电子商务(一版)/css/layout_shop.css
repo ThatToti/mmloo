@@ -1,0 +1,154 @@
+#shop_Bar img{
+	float: left;
+}
+#shop_Bar .shop_progress{
+	width: 80%;
+	margin-left: 20%;
+	position: relative;
+}
+#shop_Bar .shop_progress p{
+	font-size: 25px;
+	text-align: center;
+	font-style: italic;
+}
+.shop_intro{
+	background-color: rgb(243, 220, 220);
+	border: 1px solid rgb(196, 0, 0);
+}
+.shop_intro .shop_intro_h1{
+	margin-left: 15px;
+}
+
+
+
+/*
+.clearfix, .clearfix::before, .clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+*/
+
+#shop_list .shoplist_btn {
+	width: 132px;
+	height: 36px;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-left: auto;
+}
+
+#shop_list .shoplist_btn button{
+	color: white;
+	background-color: rgb(153, 32, 23);
+}
+
+#shop_list .shoplist_name{
+	border-top: 2px solid #c4b400;
+	background-color: beige;
+	margin-top: 30px;
+}
+#shop_list .shoplist_name h3{
+	background-color: blanchedalmond;
+	width: 15%;
+	text-align: center;
+}
+#shop_list .shoplist_name li{
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid white;
+}
+#shop_list .shoplist_name ul{
+	width: 80%;
+	margin-left: auto;
+	background-color: #c7c9a6;
+	padding: 10px;
+	border-top: 2px solid white;
+}
+#goods{
+	width: 40%;
+}
+.shoplist_name .others{
+	width: 15%;
+}
+#shop_list .shoplist_name p{
+	width: 20%;
+	margin-left: auto;
+	background-color: #e9e989;
+	text-align: center;
+	padding: 10px;
+}
+#shop_list .shoplist_name p strong{
+	color: red;
+
+}
+.shoplist_img{
+	width: 104px;
+	height: 104px;
+	float: left;
+	margin-left: 5%;
+
+}
+.shoplist_img img{
+	width: 90%;
+	height:90%;
+	margin: auto;
+}
+.shoplist_single{
+	padding: 10px;
+	background-color: bisque;
+	border-top: 1px solid #ddd877;
+}
+
+/*------*/
+.shop_AD_Name{
+	font-family:Microsoft YaHei;
+	font-size:15px; 
+	margin:0px 0px 0px 0px;
+	line-height:15px;
+	text-align: center;
+	overflow: hidden;
+	width:240px;
+	height:30px;
+}
+#shop_Ad .Ad_title {
+    background-color: #FFF;
+    padding: 5px 10px;
+    border-bottom: solid 2px #D93600;
+}
+
+.Ad_price {
+    font-weight: 600;
+    color: #D93600;
+    position: relative;
+}
+.shop_AD_Font_Color{
+	color:white;
+}
+.shop_AD_Button{
+	text-align: center;
+	background-color:#D93600
+}
+.shop_AD_Img{
+	margin:auto;
+    width:80;
+}
+.Ad_box{
+	text-align: center;
+
+}
+.Ad_box img{
+	width: 200px;
+	height: 200px;
+}
+.shop_Ad li{
+	display:inline-block;
+	margin:10px;
+}
+.shop_Ad a
+{
+	text-decoration: none;
+}
+.shop_Ad ul{
+	display: inline-block;
+}

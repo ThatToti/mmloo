@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css/basis.css"/>
+</head>
+<body>
+	<div class="container header">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="首页.html">米米乐</a>
+      </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="注册.html">注册 <span class="sr-only">(current)</span></a></li>
+        <li><a href="登录.html">登录</a></li>
+        <li class="dropdown">
+          <a href="个人信息页.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">我的中心</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">搜索</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="购物车页.html">购物车</a></li>
+        <li class="dropdown">
+          <a href="商家信息页.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商家中心 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+      </nav>
+  </div>
+
+	<div class="container" id="bar_com">
+		<div class="input-group col-md-6 col-sm-6 col-xs-6 col-md-offset-3 col-sm-offset-3 col-xs-offset-3">
+      		<input type="text" class="form-control" placeholder="购买即送法拉利...">
+      		<span class="input-group-btn">
+        		<button class="btn btn-default" type="button">搜索</button>
+      		</span>
+    	</div><!-- /input-group -->
+    	<div class="breadcrumb col-md-6 col-sm-6 col-xs-6 col-md-offset-3 col-sm-offset-3 col-xs-offset-3">
+    		<li><a href="#">小米</a></li>
+  			<li><a href="#">苹果</a></li>
+  			<li class="active"><a href="#">索尼</a></li>
+    	</div>
+	</div>
+
+	<div class="container" id="info">
+		<div class="pic" id="pic">
+      <div id="bigPic"></div>
+			
+			<a href="images/apple2.jpg"><img src="images/apple2.jpg" class="thumbnail"></a>
+			<a href="images/apple3.jpg"><img src="images/apple3.jpg" class="thumbnail"></a>
+			<a href="images/apple4.jpg"><img src="images/apple4.jpg" class="thumbnail"></a>
+      <a href="images/apple1.jpg"><img src="images/apple1.jpg" class="thumbnail"></a>
+		</div>
+		<div class="text">
+		  <div class="text_list">
+        <dl>
+          <dt class="list_title">【新西兰】</dt>
+          <dd class="list_title">生鲜苹果，吃后长命百岁</dd>
+        </dl>
+        <dl>
+          <dd class="list_subTitle">惊艳玫瑰 浪漫之果 农田爽脆</dd>
+        </dl>
+        <dl>
+          <dt>价格：</dt>
+          <dd id="list_price"> ￥69</dd>
+        </dl>
+        <dl>
+          <dt>数量：</dt>
+          <dd> 
+            <ul>
+              <li><input id="quantity" name="quantity" value="1" maxlength="4" onpaste="return false;" type="text"></input></li>
+              <li><span id="increase" class="increase"></span>
+              <span id="decrease" class="decrease"></span></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dd>
+            <button class="list_btn" type="submit" >立马购买</button>
+            <button id="list_btn_store" type="button" >加入购物车</button>
+          </dd>
+        </dl>
+        <dl>
+          <dt>服务承诺</dt>
+          <dd>
+            <ul>
+              <li>正品保证</li>
+              <li>极速退款</li>
+              <li>七天退换</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>支付方式</dt>
+          <dd>
+            <ul>
+              <li>支付宝</li>
+              <li>微信支付</li>
+              <li>蚂蚁花呗</li>
+              <li>打白条</li>
+            </ul>
+          </dd>
+        </dl>
+      </div>  
+		</div>
+	</div>
+
+  <div class="container com_intro" >
+    <div class="detail">
+      <div class="nav1">
+        <nav>
+        <ul class="nav nav-tabs nav-justified">
+          <li role="presentation"><a href="#detailInfo">商品详情</a></li>
+          <li role="presentation"><a href="#detaiPara">商品参数</a></li>
+          <li role="presentation"><a href="#detaiComment">商品评价</a></li>
+        </ul>
+        </nav>
+      </div>
+      <div class="nav2">
+        <ul>
+          <li>商品货号：123456</li>
+          <li>品牌：苹果</li>
+        </ul>
+      </div>
+      <div class="sections">
+        <section id="detailInfo">
+          <div>
+            <img src="images/detailInfo1.jpg">
+            <img src="images/detailInfo2.jpg">
+            <img src="images/detailInfo3.jpg">
+            <img src="images/detailInfo4.jpg">
+          </div>
+        </section>
+        <section id="detaiPara">
+          <h3>产品参数</h3>
+          <ul class="nav">
+            <li>厂名：上海易果电子商务有限公司</li>
+            <li>厂址：长宁区金钟路</li>
+            <li>厂家联系方式：4000007788</li>
+            <li>保质期：5 天</li>
+            <li>净含量: 2500g</li>
+            <li>包装方式: 包装</li>
+            <li>品牌: 易果生鲜</li>
+          </ul>
+        </section>
+        <section id="detaiComment">
+          <dl class="comerce_comment">
+            <dt>      
+              w***9          
+              <time>[2016-05-07]</time>
+            </dt>
+            <dd>用户评分：<img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-off.png">&nbsp;
+            <img src="images\star-off.png"/>
+            </dd>
+            <dd >评价详情：简单点说话的方式简单点</dd>
+          </dl>
+          <dl class="comerce_comment">
+            <dt>      
+              w***9          
+              <time>[2016-05-07]</time>
+            </dt>
+            <dd>用户评分：<img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-off.png">&nbsp;
+            <img src="images\star-off.png"/>
+            </dd>
+            <dd >评价详情：你又不是一个演员</dd>
+          </dl>
+          <dl class="comerce_comment">
+            <dt>      
+              w***9          
+              <time>[2016-05-07]</time>
+            </dt>
+            <dd>用户评分：<img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-off.png">&nbsp;
+            <img src="images\star-off.png"/>
+            </dd>
+            <dd >评价详情：台下的观众其实就我一个</dd>
+          </dl>
+          <dl class="comerce_comment">
+            <dt>      
+              w***9          
+              <time>[2016-05-07]</time>
+            </dt>
+            <dd>用户评分：<img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-off.png">&nbsp;
+            <img src="images\star-off.png"/>
+            </dd>
+            <dd >评价详情：丑八怪啊啊啊啊啊</dd>
+          </dl>
+          <dl class="comerce_comment">
+            <dt>      
+              w***9          
+              <time>[2016-05-07]</time>
+            </dt>
+            <dd>用户评分：<img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-off.png">&nbsp;
+            <img src="images\star-off.png"/>
+            </dd>
+            <dd >评价详情：能否别把灯打开</dd>
+          </dl>
+          <dl class="comerce_comment">
+            <dt>      
+              w***9          
+              <time>[2016-05-07]</time>
+            </dt>
+            <dd>用户评分：<img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-on.png">&nbsp;
+            <img src="images\star-off.png">&nbsp;
+            <img src="images\star-off.png"/>
+            </dd>
+            <dd >评价详情：雪下得那么深</dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+    <div class="nailBar sub">
+      <div class="shop-archive">
+        <div class="hd">
+        <a class="shop-link" href="" target="_blank">hp惠普专卖店</a>
+        <span>图标</span>
+        </div>
+        <div class="info">
+        <div class="shopdsr-item">
+          <div class="shopdsr-title">描 述</div>
+          <div class="shopdsr-score">4.8↑</div>
+        </div>
+        <div class="shopdsr-item">
+          <div class="shopdsr-title">服 务</div>
+          <div class="shopdsr-score">4.8↑</div>
+        </div>
+        <div class="shopdsr-item">
+          <div class="shopdsr-title">物 流</div>
+          <div class="shopdsr-score">4.8↑</div>
+        </div>
+        </div>
+        <div class="btn">
+        <a class="enter-shop" href="" target="_blank">进店逛逛</a>
+        <a class="favShop" href="" target="_blank">收藏店铺</a>
+        </div>
+      </div>
+      <div>
+        <div class="advertisement">
+          <a href="" target="_blank"><img src="images/ad1.jpg" alt="广告1"></a>
+        </div>
+        <div class="advertisement">
+          <a href="" target="_blank"><img src="images/ad2.jpg" alt="广告2"></a>
+        </div>
+        <div class="advertisement">
+          <a href="" target="_blank"><img src="images/ad3.jpg" alt="广告3"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container" id"com_footer">
+    <div class="container" id="footer_intro">
+    <ul>
+      <li>
+        <dl>
+          <dt>购物指南</dt>
+          <dd><a href="#">礼品卡使用</a></dd>
+          <dd><a href="#">购物分期</a></dd>
+          <dd><a href="#">邮费制度</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>支付方式</dt>
+          <dd><a href="#">支付问题</a></dd>
+          <dd><a href="#">在线支付</a></dd>
+          <dd><a href="#">货到付款</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>配送与服务</dt>
+          <dd><a href="#">申请售后</a></dd>
+          <dd><a href="#">取消订单</a></dd>
+          <dd><a href="#">第三方配送</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>商家入驻</dt>
+          <dd><a href="#">如何入驻</a></dd>
+          <dd><a href="#">我要开店</a></dd>
+          <dd><a href="#">如何发货</a></dd>
+        </dl>
+      </li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="container" id="loginFooter">
+    <span class="label label-default">米米乐商城</span>
+    <span class="label label-primary">招聘英才</span>
+    <span class="label label-success">合作商家</span>
+    <span class="label label-info">8.8包邮</span>
+    <span class="label label-warning">双十一特惠</span>
+    <span class="label label-danger">一起摇摆</span>
+  </div>
+  </div>
+
+
+
+	<script type="text/javascript" src="scripts/global.js"></script>
+  <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+</body>
+</body>
+</html>
